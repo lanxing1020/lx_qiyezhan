@@ -177,35 +177,72 @@ body{
 	float: left;
 	height: calc(100vh - 81px) ;
 	/* height:507px; */
-	background-image: url('https://www.byton.com/img/FMC_667.jpg');
-	background-size: cover;
-	background-position: center;
+	/* background-image: url('https://www.byton.com/img/FMC_667.jpg'); */
+	/* background-size: cover; */
+	/* background-position: center; */
+	
+	padding: 0;
+}
+.banner .banner1 .pic1 img{
+	width: 100%;
+	height: 100%;
+	transition: all 5s;
+}
+.banner .banner1 .pic1:hover img{
+	transform: scale(2);
 }
 .banner .banner1 .pic2{
 	border-right: 3px solid #fff;
 	overflow: hidden;
 	float: left;
 	height: calc(100vh - 81px) ;
+	padding: 0;
 	/* height:507px; */
-	background-image: url('https://www.byton.com/img/FMC_489.jpg');
-	background-size: cover;
-	background-position: center;
+	/* background-image: url('https://www.byton.com/img/FMC_489.jpg'); */
+	/* background-size: cover; */
+	/* background-position: center; */
+}
+.banner .banner1 .pic2 img{
+	width: 100%;
+	height: 100%;
+	transition: all 5s;
+}
+.banner .banner1 .pic2:hover img{
+	transform: scale(2);
 }
 .banner .banner2 .pic1{
 	height: calc(50vh - 42px);
 	overflow: hidden;
 	border-bottom: 3px solid #fff;
-	background-image: url('https://www.byton.com/img/FMC_631.jpg');
+	/* background-image: url('https://www.byton.com/img/FMC_631.jpg');
 	background-size: cover;
-	background-position: center;
+	background-position: center; */
+	padding: 0;
+}
+.banner .banner2 .pic1 img{
+	width: 100%;
+	height: 100%;
+	transition: all 5s;
+}
+.banner .banner2 .pic1:hover img{
+	transform: scale(2);
 }
 .banner .banner2 .pic2{
 	height: calc(50vh - 42px);
 	overflow: hidden;
 	border-bottom: 3px solid #fff;
-	background-image: url('https://www.byton.com/img/FMC_088.jpg');
-	background-size: cover;
-	background-position: center;
+	/* background-image: url('https://www.byton.com/img/FMC_088.jpg'); */
+	/* background-size: cover; */
+	/* background-position: center; */
+	padding: 0;
+}
+.banner .banner2 .pic2 img{
+	width: 100%;
+	height: 100%;
+	transition: all 5s;
+}
+.banner .banner2 .pic2:hover img{
+	transform: scale(2);
 }
 section{
 	padding-bottom: 28px;

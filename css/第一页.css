@@ -93,6 +93,9 @@ body{
     letter-spacing: 2px;
     font-weight: 600;
 }
+.header1 ul li:nth-of-type(2) a{
+	color: #CFCFCE;
+}
 .header1 ul li a:hover{
 	color: #CFCFCE;
 	text-decoration: none;
@@ -286,11 +289,25 @@ ul .li2{
 	/* padding-top: 70%; */
 	padding-left: 5%;
 	padding-right: 5%;
+	position: relative;
 }
 ul .li2:nth-child(1){
 	background-image: url('https://www.byton.com/img/2.9/tile_job1_job2.jpg');
 	background-size: cover;
 	background-position: center;
+}
+.zhezhao{
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.3);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	display: none;
+}
+ul .li2:hover .zhezhao{
+	display: block;
 }
 ul .li2:nth-child(2){
 	background-image: url('https://www.byton.com/img/2.11/home-co-creator-tile-en.jpg');
