@@ -117,7 +117,7 @@ body{
 	color: #7A7977;
 	border: 1px solid #7a7977 !important;
     /* font-family: "Facto", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif; */
-          
+    position: relative;      
 	padding: 5px;
 }
 .header1 .more .one a{
@@ -125,6 +125,52 @@ body{
 	font-weight: 600;
     line-height: 0.86;
      color: #777;  
+}
+.header1 .more .lx_1{
+	width: 0;
+	height: 3px;
+	color: #1F1E26;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+}
+.header1 .more .lx_2{
+	width: 0;
+	height: 3px;
+	color: #1F1E26;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+
+}
+.header1 .more .lx_3{
+	width: 3px;
+	height: 0;
+	color: #1F1E26;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.header1 .more .lx_4{
+	width: 3px;
+	height: 0;
+	color: #1F1E26;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.header1 .more .one:hover .lx_1{
+	width: 100%;
+}
+.header1 .more .one:hover .lx_2{
+	width: 100%;
+}
+.header1 .more .one:hover .lx_3{
+	height: 100%;
+}
+.header1 .more .one:hover .lx_4{
+	height: 100%;
 }
 .header1 .more .one a:hover{
 	text-decoration: none;
